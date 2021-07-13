@@ -14,3 +14,13 @@ print(person['city'])
 print(person['age'])
 
 #6-2
+#创建字典
+favorite_num = {
+    'Alice':'7',
+    'Brown':'88',
+    'Bob':'100',
+    'Hellen':'99',
+    'Lily':'10000'
+    } 
+
+print(f"Is {favorite_num['Alice']} your favorite number,Alice?") 
