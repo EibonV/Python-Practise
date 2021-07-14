@@ -75,3 +75,17 @@ for name,places in favorite_places.items():
     print(f"\n{name} like these places:")
     for place in places:
         print(f"\n- {place}")
+
+#6-10
+#创建字典favorite_numbers
+favorite_numbers = { 
+    'mandy': [42, 17], 
+    'micah': [42, 39, 56], 
+    'gus': [7, 12]
+    }
+
+#输出数字
+for name,favorite_number in favorite_numbers.items():
+    print(f"\n{name.title()} likes the flowing numbers:")
+    for num in favorite_number:    
+        print(f"\n{num}")
