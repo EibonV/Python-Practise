@@ -63,3 +63,15 @@ for info in pets:
     print(f"\nHere is about {info['name'].title()}:")
     for key,value in info.items():
         print(f"\t{key}:{value}")
+
+#6-9
+#创建字典favorite_places
+favorite_places = { 
+    'eric': ['bear mountain', 'death valley', 'tierra del fuego'], 
+    'erin': ['hawaii', 'iceland'], 
+    'willie': ['mt. verstovia', 'the playground', 'new hampshire'] 
+    }
+for name,places in favorite_places.items():
+    print(f"\n{name} like these places:")
+    for place in places:
+        print(f"\n- {place}")
