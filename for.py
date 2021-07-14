@@ -1,7 +1,7 @@
 #列表For语句
-magicians=['alice','david','carolina']
+magicians=['爱丽丝','大卫','凯洛玲']
 for magician in magicians:
-    print(magician.title())
+    print(magician)
     print(f"I can't wait to see your next trick,{magician.title()}!\n")
 #创建1~4数字
 for value in range(1,5):
