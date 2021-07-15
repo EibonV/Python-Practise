@@ -8,7 +8,7 @@ for sandwiche in sandwich_orders:
     finished_sandwiches.append(sandwiche)
 
 for sandwiche in finished_sandwiches:
-    print(f"\n{sandwiche}已完成！")
+    print(f"\n{sandwiche}已完成！")   
 
 #7-9
 print("本店的牛肉三明治卖完了！\n")
@@ -32,4 +32,4 @@ while True:
     info=input("还有谁要接受调查吗？")
 print("调查结果如下：")
 for name,place in places.items():
-    print(f"\n{name}要去{place}度假")
+    print(f"\n{name}要去{place}度假")    
