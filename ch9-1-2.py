@@ -1,4 +1,4 @@
-#9-1
+#习题9-1
 class Restaurant:
     """创建类Restaurant"""
     def __init__(self,restaurant_name,cuisine_type):
@@ -12,13 +12,13 @@ class Restaurant:
 
     def open_restaurant(self):
         """方法2：餐馆开门了"""
-        print(f" {self.name}已经开门了!")
+        print(f"{self.name}已经开门了!")
 
 restaurant = Restaurant('皇后','煎饼')
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
 
-#9-2
+#习题9-2
 restaurant1 = Restaurant('士兵','披萨')
 restaurant1.describe_restaurant()
 
